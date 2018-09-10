@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="customersCtrl">
+
+    <table>
+        <tr ng-repeat="x in myData">
+            <td>{{x.studentid}}</td>
+            <td>{{ x.lastname }}</td>
+            <td>{{ x.firstname }}</td>
+            <td> {{x.grade}}</td>
+        </tr>
+    </table>
+
+</div>
+
+<script>
+
+</script>
+
+</body>
+<link rel="stylesheet" href="css/lib/bootstrap.min.css"/>
+<link rel="stylesheet" href="css/app/app.css"/>
+<script src="js/lib/angular.min.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+<script src="js/app/app.js"></script>
+</html>
